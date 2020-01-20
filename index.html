@@ -1,0 +1,39 @@
+<!DOCKTYPE html>
+<title>
+    Unicode To IPA
+</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="jquery.js"></script>
+<html>
+    <body>
+        <div id="h"><h1>Unicode Text to IPA Converter (( . ))</h1></div>
+        <div id="file">
+            Select the language:
+            <select name="cars">
+                <option value="english">English(en-us)</option>
+                <option value="hindi">Hindi</option>
+              </select>
+        </div><br><br>
+        <div id="main">
+            <div id="l">
+                <textarea id="in"></textarea>
+            </div>
+            <div id="line"></div>
+            <div id="r">
+                <textarea id="out" readonly></textarea>
+            </div>
+        </div><br>
+        <div id="file">OR<br>
+            Give input from file<input id="fl" type="file"></input>
+        </div><br><br><br><br>
+        <div>
+            <input id="butt" type="button" value="Run Voice"></input>
+        </div>
+        <!-- <div id="footer">
+            <div id="keyb"><h1>Keyboard Area</h1><div>
+        </div> -->
+
+        <script type="text/javascript" src="mespeak/main.js"></script>
+        <script type="text/javascript" src="mespeak/mespeak.js"></script>
+    </body>
+</html>
